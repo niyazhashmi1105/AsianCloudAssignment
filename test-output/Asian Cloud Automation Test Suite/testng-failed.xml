@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Asian Cloud Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Assignment Test(failed)">
+    <classes>
+      <class name="testcases.RegisterPageTest">
+        <methods>
+          <include name="destroyDriver"/>
+          <include name="validateRegisterAccount"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.RegisterPageTest -->
+      <class name="testcases.LoginPageTest">
+        <methods>
+          <include name="destroyDriver"/>
+          <include name="validateErrorMessageOnBlankEmailIDPasword"/>
+          <include name="setUp"/>
+          <include name="validateForgotPasswordNavigationLink"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Assignment Test(failed) -->
+</suite> <!-- Failed suite [Asian Cloud Automation Test Suite] -->

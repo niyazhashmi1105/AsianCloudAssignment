@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Asian Cloud Assignment Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span>D:\Projects\JavaPracticeExercises\com.asiancloud.assignment\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Asian_Cloud_Assignment_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" class="hide-methods failed suite-Asian_Cloud_Assignment_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Asian_Cloud_Assignment_Automation_Suite -->
+                      <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" class="show-methods failed suite-Asian_Cloud_Assignment_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Asian_Cloud_Assignment_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Asian_Cloud_Assignment_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateValidUserCredentials">validateValidUserCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Asian_Cloud_Assignment_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" class="hide-methods passed suite-Asian_Cloud_Assignment_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Asian_Cloud_Assignment_Automation_Suite -->
+                      <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" class="show-methods passed suite-Asian_Cloud_Assignment_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Asian_Cloud_Assignment_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Asian_Cloud_Assignment_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.RegisterPageTest" class="method navigator-link" hash-for-method="validateEmailAlreadyExistsErrorMessage">validateEmailAlreadyExistsErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateErrorMessageOnBlankEmailIDPasword">validateErrorMessageOnBlankEmailIDPasword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateErrorMessageOnEnterInvalidPassword">validateErrorMessageOnEnterInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateErrorMessageOnEnteringInvalidEmail">validateErrorMessageOnEnteringInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateErrorMessageOnForgotPasswordPage">validateErrorMessageOnForgotPasswordPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.RegisterPageTest" class="method navigator-link" hash-for-method="validateErrorMessageOnRegisterButtonClick">validateErrorMessageOnRegisterButtonClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateForgotPasswordNavigationLink">validateForgotPasswordNavigationLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateLocaleDropdownValueTextForgotPasswordPage">validateLocaleDropdownValueTextForgotPasswordPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateLocaleDropdownValueTextLoginScreen">validateLocaleDropdownValueTextLoginScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.RegisterPageTest" class="method navigator-link" hash-for-method="validateLocaleDropdownValueTextRegisterPage">validateLocaleDropdownValueTextRegisterPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.RegisterPageTest" class="method navigator-link" hash-for-method="validatePasswordMismatchErrorMessage">validatePasswordMismatchErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validatePasswordResetSuccessMessageForInvalidEmail">validatePasswordResetSuccessMessageForInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validatePasswordResetSuccessMessageForValidEmail">validatePasswordResetSuccessMessageForValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.RegisterPageTest" class="method navigator-link" hash-for-method="validateRegisterAccount">validateRegisterAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.RegisterPageTest" class="method navigator-link" hash-for-method="validateRegisterNavigationLink">validateRegisterNavigationLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateRemembermeCheckboxTextOnLoginScreen">validateRemembermeCheckboxTextOnLoginScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Asian_Cloud_Assignment_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Asian_Cloud_Assignment_Automation_Suite" class="panel Asian_Cloud_Assignment_Automation_Suite">
+          <div class="suite-Asian_Cloud_Assignment_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateValidUserCredentials">
+                  </a> <!-- validateValidUserCredentials -->
+                  <span class="method-name">validateValidUserCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;username&apos;]&quot;}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-EP2S4TU&apos;, ip: &apos;172.19.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9525e6a5788f37301af47ec6222b2cb9, findElement {using=xpath, value=//*[@id=&apos;username&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63653}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63653/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9525e6a5788f37301af47ec6222b2cb9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
+	at pages.LoginPage.enterUserCredentials(LoginPage.java:62)
+	at testcases.LoginPageTest.validateValidUserCredentials(LoginPageTest.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(This is used to test after entering valid Email and Password reading from properties file and validating pagetitle after successful login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Asian_Cloud_Assignment_Automation_Suite-class-failed -->
+          <div class="suite-Asian_Cloud_Assignment_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateErrorMessageOnBlankEmailIDPasword">
+                  </a> <!-- validateErrorMessageOnBlankEmailIDPasword -->
+                  <span class="method-name">validateErrorMessageOnBlankEmailIDPasword</span>
+                  <em>
+(This method used to test error messages for blank email and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateErrorMessageOnEnterInvalidPassword">
+                  </a> <!-- validateErrorMessageOnEnterInvalidPassword -->
+                  <span class="method-name">validateErrorMessageOnEnterInvalidPassword</span>
+                  <em>
+(This is used to test after entering invalid Password reading from properties file and validating error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateErrorMessageOnEnteringInvalidEmail">
+                  </a> <!-- validateErrorMessageOnEnteringInvalidEmail -->
+                  <span class="method-name">validateErrorMessageOnEnteringInvalidEmail</span>
+                  <em>
+(This is used to test after entering invalid Email reading from properties file and validating error message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateErrorMessageOnForgotPasswordPage">
+                  </a> <!-- validateErrorMessageOnForgotPasswordPage -->
+                  <span class="method-name">validateErrorMessageOnForgotPasswordPage</span>
+                  <em>
+(This method used to test the error message with blank email id at the ForgotPassword page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateForgotPasswordNavigationLink">
+                  </a> <!-- validateForgotPasswordNavigationLink -->
+                  <span class="method-name">validateForgotPasswordNavigationLink</span>
+                  <em>
+(This method used to test the text present in Login screen after navigating from ForgotPassword page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLocaleDropdownValueTextForgotPasswordPage">
+                  </a> <!-- validateLocaleDropdownValueTextForgotPasswordPage -->
+                  <span class="method-name">validateLocaleDropdownValueTextForgotPasswordPage</span>
+                  <em>
+(This method used to select particular locale from the dropdown values listed in the Forgot password screen)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLocaleDropdownValueTextLoginScreen">
+                  </a> <!-- validateLocaleDropdownValueTextLoginScreen -->
+                  <span class="method-name">validateLocaleDropdownValueTextLoginScreen</span>
+                  <em>
+(This method used to select particular locale from the dropdown values listed in the login screen )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePasswordResetSuccessMessageForInvalidEmail">
+                  </a> <!-- validatePasswordResetSuccessMessageForInvalidEmail -->
+                  <span class="method-name">validatePasswordResetSuccessMessageForInvalidEmail</span>
+                  <em>
+(This method used to validate error message for the inavlid email in the Forgot password page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePasswordResetSuccessMessageForValidEmail">
+                  </a> <!-- validatePasswordResetSuccessMessageForValidEmail -->
+                  <span class="method-name">validatePasswordResetSuccessMessageForValidEmail</span>
+                  <em>
+(This method used to verify the text on the screen for password reset)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRemembermeCheckboxTextOnLoginScreen">
+                  </a> <!-- validateRemembermeCheckboxTextOnLoginScreen -->
+                  <span class="method-name">validateRemembermeCheckboxTextOnLoginScreen</span>
+                  <em>
+(This is used to validate whether Rememberme checkbox is displayed or not)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Asian_Cloud_Assignment_Automation_Suite-class-passed -->
+          <div class="suite-Asian_Cloud_Assignment_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmailAlreadyExistsErrorMessage">
+                  </a> <!-- validateEmailAlreadyExistsErrorMessage -->
+                  <span class="method-name">validateEmailAlreadyExistsErrorMessage</span>
+                  <em>
+(This method used to test error message for the same email already registered)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateErrorMessageOnRegisterButtonClick">
+                  </a> <!-- validateErrorMessageOnRegisterButtonClick -->
+                  <span class="method-name">validateErrorMessageOnRegisterButtonClick</span>
+                  <em>
+(This method used to validate error message from Register Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLocaleDropdownValueTextRegisterPage">
+                  </a> <!-- validateLocaleDropdownValueTextRegisterPage -->
+                  <span class="method-name">validateLocaleDropdownValueTextRegisterPage</span>
+                  <em>
+(This method used to select particular locale from the dropdown values listed in the Register screen )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePasswordMismatchErrorMessage">
+                  </a> <!-- validatePasswordMismatchErrorMessage -->
+                  <span class="method-name">validatePasswordMismatchErrorMessage</span>
+                  <em>
+(This method used to validate password mismatch error message )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisterAccount">
+                  </a> <!-- validateRegisterAccount -->
+                  <span class="method-name">validateRegisterAccount</span>
+                  <em>
+(This method used to validate page title once the account successfully registered)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisterNavigationLink">
+                  </a> <!-- validateRegisterNavigationLink -->
+                  <span class="method-name">validateRegisterNavigationLink</span>
+                  <em>
+(This method used to validate text on the login screen once navigated back from Register Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Asian_Cloud_Assignment_Automation_Suite-class-passed -->
+        </div> <!-- panel Asian_Cloud_Assignment_Automation_Suite -->
+        <div panel-name="test-xml-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Projects\JavaPracticeExercises\com.asiancloud.assignment\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Asian Cloud Assignment Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Assignment Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;testcases.RegisterPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Assignment Test --&gt;
+&lt;/suite&gt; &lt;!-- Asian Cloud Assignment Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Asian Cloud Assignment Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Assignment Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Asian Cloud Assignment Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Asian Cloud Assignment Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Asian_Cloud_Assignment_Automation_Suite');
+function tableData_Asian_Cloud_Assignment_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateErrorMessageOnRegisterButtonClick')
+data.setCell(0, 2, 'testcases.RegisterPageTest')
+data.setCell(0, 3, 6985);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateLocaleDropdownValueTextRegisterPage')
+data.setCell(1, 2, 'testcases.RegisterPageTest')
+data.setCell(1, 3, 5333);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateLocaleDropdownValueTextForgotPasswordPage')
+data.setCell(2, 2, 'testcases.LoginPageTest')
+data.setCell(2, 3, 5039);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateLocaleDropdownValueTextLoginScreen')
+data.setCell(3, 2, 'testcases.LoginPageTest')
+data.setCell(3, 3, 3891);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validatePasswordResetSuccessMessageForValidEmail')
+data.setCell(4, 2, 'testcases.LoginPageTest')
+data.setCell(4, 3, 2797);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateErrorMessageOnEnteringInvalidEmail')
+data.setCell(5, 2, 'testcases.LoginPageTest')
+data.setCell(5, 3, 2543);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validatePasswordMismatchErrorMessage')
+data.setCell(6, 2, 'testcases.RegisterPageTest')
+data.setCell(6, 3, 2224);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatePasswordResetSuccessMessageForInvalidEmail')
+data.setCell(7, 2, 'testcases.LoginPageTest')
+data.setCell(7, 3, 2205);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateErrorMessageOnBlankEmailIDPasword')
+data.setCell(8, 2, 'testcases.LoginPageTest')
+data.setCell(8, 3, 2058);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateRemembermeCheckboxTextOnLoginScreen')
+data.setCell(9, 2, 'testcases.LoginPageTest')
+data.setCell(9, 3, 1748);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateEmailAlreadyExistsErrorMessage')
+data.setCell(10, 2, 'testcases.RegisterPageTest')
+data.setCell(10, 3, 1635);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateRegisterAccount')
+data.setCell(11, 2, 'testcases.RegisterPageTest')
+data.setCell(11, 3, 1531);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateErrorMessageOnForgotPasswordPage')
+data.setCell(12, 2, 'testcases.LoginPageTest')
+data.setCell(12, 3, 1192);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateErrorMessageOnEnterInvalidPassword')
+data.setCell(13, 2, 'testcases.LoginPageTest')
+data.setCell(13, 3, 1088);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateForgotPasswordNavigationLink')
+data.setCell(14, 2, 'testcases.LoginPageTest')
+data.setCell(14, 3, 1018);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateRegisterNavigationLink')
+data.setCell(15, 2, 'testcases.RegisterPageTest')
+data.setCell(15, 3, 964);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateValidUserCredentials')
+data.setCell(16, 2, 'testcases.LoginPageTest')
+data.setCell(16, 3, 194);
+window.suiteTableData['Asian_Cloud_Assignment_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Asian_Cloud_Assignment_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <div id="times-div-Asian_Cloud_Assignment_Automation_Suite">
+              </div> <!-- times-div-Asian_Cloud_Assignment_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Asian Cloud Assignment Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Asian_Cloud_Assignment_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrorMessageOnEnteringInvalidEmail</span>
+                <span class="method-start">28784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">31518 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrorMessageOnEnterInvalidPassword</span>
+                <span class="method-start">54835 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">56050 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateValidUserCredentials</span>
+                <span class="method-start">69073 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">69563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69946 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRemembermeCheckboxTextOnLoginScreen</span>
+                <span class="method-start">82023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">83868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateForgotPasswordNavigationLink</span>
+                <span class="method-start">95513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">96637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrorMessageOnForgotPasswordPage</span>
+                <span class="method-start">112245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">113517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">113864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePasswordResetSuccessMessageForValidEmail</span>
+                <span class="method-start">133097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">135987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">136362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePasswordResetSuccessMessageForInvalidEmail</span>
+                <span class="method-start">150673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">153019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">153569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrorMessageOnBlankEmailIDPasword</span>
+                <span class="method-start">170079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">172236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">172705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLocaleDropdownValueTextLoginScreen</span>
+                <span class="method-start">187146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">191101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">191411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLocaleDropdownValueTextForgotPasswordPage</span>
+                <span class="method-start">203762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">208884 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">209244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegisterNavigationLink</span>
+                <span class="method-start">223191 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">224223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">224546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateErrorMessageOnRegisterButtonClick</span>
+                <span class="method-start">253288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">260341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">260638 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegisterAccount</span>
+                <span class="method-start">288566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">290160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">290482 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmailAlreadyExistsErrorMessage</span>
+                <span class="method-start">303443 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">305188 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">305593 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePasswordMismatchErrorMessage</span>
+                <span class="method-start">313434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">315719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">316100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLocaleDropdownValueTextRegisterPage</span>
+                <span class="method-start">329157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">destroyDriver</span>
+                <span class="method-start">334562 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
